@@ -1,7 +1,10 @@
 @import './variables';
 
-body{
+body,html{
   margin: 0;
+  width: 100vw;
+  height: 100vh;
   font-family: $font;
+  overflow-x: hidden;
 }
 
