@@ -12,9 +12,7 @@ const AlphabetCard = ({ alphabet, distros }) => (
         <Card.Title className="text-center card-title">
           {alphabet}
         </Card.Title>
-        <a href="/">
-          {distros.map((distro) => <div>{distro}</div>)}
-        </a>
+        {distros.map((distro) => <div><a href={`/distro/${distro}`}>{distro}</a></div>)}
       </Card.Body>
     </Card>
   </Col>
