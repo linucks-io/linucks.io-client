@@ -1,10 +1,11 @@
 import React from 'react';
 import './LandingPage.scss';
 import { Button, Row, Col } from 'react-bootstrap';
-import Logo from '../../assets/logo.png';
+import Logo from '../../assets/logo3.png';
 import Tick from '../../assets/icons/tick.svg';
 import Alphabets from '../../components/Alphabets/Alphabets';
 import SearchBox from '../../components/SearchBox/SearchBox';
+import Spacer from '../../components/Spacer/Spacer';
 import AlphabetCard from '../../components/AlphabetCard/AlphabetCard';
 import distroMap from '../../distro';
 
@@ -17,21 +18,29 @@ function createAlphabetCard(alphabet) {
 
 const LandingPage = () => (
   <>
-    <Row className="d-flex-row justify-content-around p-5">
+    <Row className="d-flex-row justify-content-around p-4 navbar">
       <img src={Logo} alt="logo" className="logo" />
       <Button>Test me</Button>
     </Row>
+    <Spacer />
     <Row className="d-flex-row justify-content-around">
       <div>
         <div>
-          <h1>Test Linux distros in your browser</h1>
+          <h1 className="header">
+            Run and test Linux
+            <br />
+            in your browser
+          </h1>
         </div>
         <br />
         <div className="text-center">
-          <h5>No installations, no long waiting times, its an</h5>
-          <h5>operating system in your browser</h5>
+          <h5 className="subheader">
+            No installations, no long waiting times, its an
+            <br />
+            operating system in your browser
+          </h5>
           <br />
-          <p>With linucks.io you can yuck out all the bad distros</p>
+          <p className="paragraph">With linucks.io you can yuck out all the bad distros</p>
         </div>
       </div>
     </Row>
