@@ -4,6 +4,16 @@ import { Button, Row, Col } from 'react-bootstrap';
 import Logo from '../../assets/logo.png';
 import Tick from '../../assets/icons/tick.svg';
 import Alphabets from '../../components/Alphabets/Alphabets';
+import SearchBox from '../../components/SearchBox/SearchBox';
+import AlphabetCard from '../../components/AlphabetCard/AlphabetCard';
+import distroMap from '../../distro';
+
+function createAlphabetCard(alphabet) {
+  if (distroMap[alphabet].length === 0) {
+    return <></>;
+  }
+  return <AlphabetCard alphabet={alphabet} distros={distroMap[alphabet]} />;
+}
 
 const LandingPage = () => (
   <>
@@ -56,9 +66,20 @@ const LandingPage = () => (
         </Col>
       </Row>
     </div>
-    <Row className="d-flex-row justify-content-around mt-5">
-      <Alphabets />
+    <Row className="d-flex-row justify-content-around w-100">
+      <div>
+        <Alphabets />
+        <br />
+        <a href="/">Reset applied filters</a>
+      </div>
+      <SearchBox />
     </Row>
+    <div className="d-flex justify-content-center">
+      <Row className="w-75">
+        {Object.keys(distroMap).map(createAlphabetCard)}
+      </Row>
+    </div>
+
   </>
 );
 

@@ -2,6 +2,11 @@
 
 .btn{
     background-color: $button-purple;
+    border-color: $button-purple;
+}
+
+.btn:hover{
+    background-color: #730FC3;
 }
 
 .logo{ 
