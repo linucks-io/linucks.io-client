@@ -1,21 +1,18 @@
 import React from 'react';
 import {
-  Form, Col, Button,
+  Form, Col, Button, Row,
 } from 'react-bootstrap';
 
 const SearchBox = () => (
   <Form>
-    <Form.Row className="align-items-center">
-      <Col sm={8} className="my-1">
-        <Form.Label htmlFor="inlineFormInputName" srOnly>
-          Name
-        </Form.Label>
+    <Row className="d-flex">
+      <Col sm={8}>
         <Form.Control id="inlineFormInputName" placeholder="Distro name" />
       </Col>
-      <Col xs="auto" className="my-1">
-        <Button>Search</Button>
+      <Col>
+        <Button className="mt-0">Search</Button>
       </Col>
-    </Form.Row>
+    </Row>
   </Form>
 );
 

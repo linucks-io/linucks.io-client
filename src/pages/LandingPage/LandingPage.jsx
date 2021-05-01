@@ -40,7 +40,14 @@ const LandingPage = () => (
             operating system in your browser
           </h5>
           <br />
-          <p className="paragraph">With linucks.io you can yuck out all the bad distros</p>
+          <p className="paragraph">
+            With
+            {' '}
+            {' '}
+            <b>linucks.io</b>
+            {' '}
+            you can yuck out all the bad distros
+          </p>
         </div>
       </div>
     </Row>
@@ -75,15 +82,15 @@ const LandingPage = () => (
         </Col>
       </Row>
     </div>
-    <Row className="d-flex-row justify-content-around w-100">
+    <Row className="d-flex-row justify-content-around mt-5 w-100">
       <div>
         <Alphabets />
         <br />
-        <a href="/">Reset applied filters</a>
+        <a className="reset" href="/">Reset applied filters</a>
       </div>
       <SearchBox />
     </Row>
-    <div className="d-flex justify-content-center">
+    <div className="d-flex mt-5 justify-content-center">
       <Row className="w-75">
         {Object.keys(distroMap).map(createAlphabetCard)}
       </Row>

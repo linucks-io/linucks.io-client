@@ -10,9 +10,12 @@ const AlphabetCard = ({ alphabet, distros }) => (
     >
       <Card.Body className="alphabet-card-body">
         <Card.Title className="text-center card-title">
-          {alphabet}
+          <u>
+            {alphabet}
+
+          </u>
         </Card.Title>
-        {distros.map((distro) => <div><a href={`/distro/${distro}`}>{distro}</a></div>)}
+        {distros.map((distro) => <div><a className="distro-names" href={`/distro/${distro}`}>{distro}</a></div>)}
       </Card.Body>
     </Card>
   </Col>

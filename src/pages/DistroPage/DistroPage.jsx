@@ -28,10 +28,10 @@ const DistroPage = () => {
       if (success) {
         if (url.includes('viewOnly=true')) {
           const newUrl = url.split('?')[0];
-          setUrl(`wss://${newUrl}`);
+          setUrl(`ws://${newUrl}`);
           return;
         }
-        setUrl(`wss://${url}`);
+        setUrl(`ws://${url}`);
       }
     } catch {
       setUrl(REACT_APP_FALLBACK_URL);
