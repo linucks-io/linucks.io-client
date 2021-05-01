@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/linucks-io/linucks.io-client">
+  <a href="https://github.com/linucks-io/">
     <img src="https://i.ibb.co/41wHGgQ/logo.png" alt="Logo" width="175">
   </a>
 
