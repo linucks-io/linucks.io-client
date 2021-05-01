@@ -10,7 +10,7 @@
     <img src="https://i.ibb.co/41wHGgQ/logo.png"  alt="Logo" width="80">
   </a>
 
-  <h1 align="center">linucks.io</h1>
+  <h1 align="center">linucks.io-client</h1>
 
   <p align="center">
     The frotend repo for linucks.io ✨:sparkles:
