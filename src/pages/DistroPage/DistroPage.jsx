@@ -36,6 +36,7 @@ const DistroPage = () => {
       }
     } catch {
       console.log(REACT_APP_FALLBACK_URL);
+      console.log('ran');
       // setUrl(REACT_APP_FALLBACK_URL);
     }
   };
