@@ -18,8 +18,9 @@
   }
 
 .arch {
-    top: 42.5%;
-    transform: translateY(-50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     width: 35vw;
     position: absolute;
     z-index: 2;
@@ -32,10 +33,13 @@
 }
 
 .glow {
-    position: relative;
+    position: absolute;
     z-index: 1;
     width: 37vw;
     height: 42vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     background: conic-gradient(from 217.29deg at 51.63% 52.16%, rgb(36, 0, 255) 0deg, rgb(0, 135, 255) 19.5deg, rgb(255, 29, 122) 102.75deg, rgb(245, 56, 27) 152.25deg, rgb(255, 83, 53) 208.88deg, rgb(105, 30, 255) 291deg);
     filter: blur(16px);
     opacity: 0.75;
@@ -77,6 +81,10 @@
 
 .reset{
     color: white;
+}
+
+.parent-div{
+    position: relative;
 }
 
 @keyframes pulse {
