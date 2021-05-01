@@ -55,11 +55,13 @@
   <p align="center">
 
 
-**linucks.io** is a web application where you can test out a high range of Linux distros before actually installing in on your system.
-Linux is a popular operating system family which is used mainly by developers because of the many benefits. Since it is an operating system family, there
-are many options to choose from which can be quite confusing for the user.
+**linucks.io** is a web application where you can test out a range of Linux distros before actually installing in on your system.
 
-**linucks.io** is designed for this exact purpose. With this application, we try the user by simulating a virtual environment of the distro of the user's choice.
+
+Linux is a popular kernel which is used mainly by developers because of the many benefits. Since there are a number of flavours of GNU/Linux, there
+are many options to choose from, which can be quite confusing for the user.
+
+**linucks.io** is a one-stop solution for distro-hopping. With this application, we try the user by simulating a virtual environment of the distro of the user's choice. This is the repository for the frontend of the web-application, you can check out the backend on [https://github.com/linucks-io/linucks.io-server/]. Every time a user clicks on a distro, a request is sent to the backend, which allocates a docker image for that cluster and returns a SSL encrypted websocket URL for it, which can be accessed using [noVNC](https://github.com/novnc/noVNC) on the browser.
 
 
 ### Built With
@@ -78,11 +80,8 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
-```sh
-npm install npm@latest -g
-```
+* node
 
 ### Installation
  
@@ -93,6 +92,10 @@ git clone https://github.com/linucks-io/linucks.io-client.git
 2. Install NPM packages
 ```sh
 npm install
+```
+3. Add the necessary environment variables to a `.env` file.
+```sh
+echo "REACT_APP_BACKEND_URL=http://localhost:3001" > .env
 ```
 
 
