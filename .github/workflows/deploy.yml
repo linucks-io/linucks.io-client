@@ -24,7 +24,7 @@ jobs:
         npm run lint:fix
         npm run build
       env:
-        REACT_APP_BASE_URL: ${{ secrets.BACKEND_URL }}
+        REACT_APP_BACKEND_URL: ${{ secrets.REACT_APP_BACKEND_URL }}
       
     - name: Deploy to github.io
       uses: JamesIves/github-pages-deploy-action@4.1.1
