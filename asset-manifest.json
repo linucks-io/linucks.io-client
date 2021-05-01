@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/linucks.io-client/static/css/main.79be6931.chunk.css",
-    "main.js": "/linucks.io-client/static/js/main.12702310.chunk.js",
+    "main.css": "/linucks.io-client/static/css/main.4c6cd85d.chunk.css",
+    "main.js": "/linucks.io-client/static/js/main.ce42aff6.chunk.js",
     "runtime-main.js": "/linucks.io-client/static/js/runtime-main.8a5d678d.js",
     "static/css/2.0371faf3.chunk.css": "/linucks.io-client/static/css/2.0371faf3.chunk.css",
-    "static/js/2.95e51496.chunk.js": "/linucks.io-client/static/js/2.95e51496.chunk.js",
+    "static/js/2.2ababa5d.chunk.js": "/linucks.io-client/static/js/2.2ababa5d.chunk.js",
     "index.html": "/linucks.io-client/index.html",
-    "static/js/2.95e51496.chunk.js.LICENSE.txt": "/linucks.io-client/static/js/2.95e51496.chunk.js.LICENSE.txt",
+    "static/js/2.2ababa5d.chunk.js.LICENSE.txt": "/linucks.io-client/static/js/2.2ababa5d.chunk.js.LICENSE.txt",
+    "static/media/arch.22e48193.png": "/linucks.io-client/static/media/arch.22e48193.png",
     "static/media/LandingPage.scss": "/linucks.io-client/static/media/bg.a1e9d8d2.png",
-    "static/media/App.scss": "/linucks.io-client/static/media/bg2.8513e602.jpg",
+    "static/media/App.scss": "/linucks.io-client/static/media/bg2.8825c8cc.jpg",
     "static/media/logo3.697a95ee.png": "/linucks.io-client/static/media/logo3.697a95ee.png",
     "static/media/tick.66cda1ec.svg": "/linucks.io-client/static/media/tick.66cda1ec.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8a5d678d.js",
     "static/css/2.0371faf3.chunk.css",
-    "static/js/2.95e51496.chunk.js",
-    "static/css/main.79be6931.chunk.css",
-    "static/js/main.12702310.chunk.js"
+    "static/js/2.2ababa5d.chunk.js",
+    "static/css/main.4c6cd85d.chunk.css",
+    "static/js/main.ce42aff6.chunk.js"
   ]
 }
