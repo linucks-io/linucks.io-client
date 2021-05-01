@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Alphabets.scss';
 
 function makeAlphabet() {
@@ -6,7 +7,7 @@ function makeAlphabet() {
 
   for (let i = 65; i < 91; i += 1) {
     rows.push(
-      <a key={i} href="/">{String.fromCharCode(i)}</a>,
+      <Link key={i} href="/">{String.fromCharCode(i)}</Link>,
     );
   }
   return rows;
