@@ -92,7 +92,7 @@ const LandingPage = () => (
       </div>
       <SearchBox />
     </Row>
-    <div className="d-flex mt-5 justify-content-center">
+    <div id="distros" className="d-flex mt-5 justify-content-center">
       <Row className="w-75">
         {Object.keys(distroMap).map(createAlphabetCard)}
       </Row>
