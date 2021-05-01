@@ -1,13 +1,12 @@
 [![Issues][issues-shield]][issues-url]
 
-[![csivit][csivitu-shield]][csivitu-url]
 [![Issues][issues-shield]][issues-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/csivitu/Template">
-    <img src="https://i.ibb.co/41wHGgQ/logo.png"  alt="Logo" width="80">
+  <a href="https://github.com/linucks-io/linucks.io-client">
+    <img src="https://i.ibb.co/41wHGgQ/logo.png"  alt="Logo" width="175">
   </a>
 
   <h1 align="center">linucks.io-client</h1>
@@ -15,14 +14,14 @@
   <p align="center">
     The frotend repo for linucks.io ✨:sparkles:
     <br />
-    <a href="https://github.com/csivitu/Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/linucks-io/linucks.io-client/><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/csivitu/Template">View Demo</a>
+    <a href="https://github.com/linucks-io/linucks.io-client/">View Demo</a>
     ·
-    <a href="https://github.com/csivitu/Template/issues">Report Bug</a>
+    <a href="https://github.com/linucks-io/linucks.io-client/issues">Report Bug</a>
     ·
-    <a href="https://github.com/csivitu/Template/issues">Request Feature</a>
+    <a href="https://github.com/linucks-io/linucks.io-client/issues">Request Feature</a>
   </p>
 </p>
 
@@ -52,7 +51,7 @@
     <img src="https://i.ibb.co/VQgK4HL/1.png"  alt="product">
     <img src="https://i.ibb.co/JQWpLGG/2.png"  alt="product1">
   </a>
-  <p align="center">
+</p>
 
 
 **linucks.io** is a web application where you can test out a range of Linux distros before actually installing in on your system.
@@ -114,7 +113,7 @@ npm start
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/csivitu/Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/linucks-io/linucks.io-client/issues) for a list of proposed features (and known issues).
 
 
 
@@ -139,7 +138,5 @@ Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more informati
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[csivitu-shield]: https://img.shields.io/badge/csivitu-csivitu-blue
-[csivitu-url]: https://csivit.com
-[issues-shield]: https://img.shields.io/github/issues/csivitu/Template.svg?style=flat-square
-[issues-url]: https://github.com/csivitu/Template/issues
+[issues-shield]: https://img.shields.io/github/issues/linucks-io/linucks.io-client.svg?style=flat-square
+[issues-url]: https://github.com/linucks-io/linucks.io-client/issues
