@@ -53,7 +53,7 @@ const DistroPage = () => {
       <Row className="d-flex justify-content-center p-5">
         <h1>{distroName}</h1>
       </Row>
-      <Row>
+      <Row className="mb-5">
         <Col className="text-left p-5">
           <div className="d-flex">
             <h2 className="pros ml-3">Pros</h2>
