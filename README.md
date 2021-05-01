@@ -1,7 +1,5 @@
 [![Issues][issues-shield]][issues-url]
 
-[![Issues][issues-shield]][issues-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
