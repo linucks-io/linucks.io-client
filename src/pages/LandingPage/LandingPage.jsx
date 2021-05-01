@@ -1,6 +1,7 @@
 import React from 'react';
 import './LandingPage.scss';
 import { Row, Col } from 'react-bootstrap';
+import Tilt from 'react-tilt';
 import Tick from '../../assets/icons/tick.svg';
 import Alphabets from '../../components/Alphabets/Alphabets';
 import SearchBox from '../../components/SearchBox/SearchBox';
@@ -50,8 +51,10 @@ const LandingPage = () => (
       </div>
     </Row>
     <Row className="d-flex parent justify-content-center mt-5">
-      <div className="glow" />
-      <img src={ArchLinux} alt="" className="arch" />
+      <Tilt className="Tilt" options={{ max: 25, easing: 'cubic-bezier(.03,.98,.52,.99)' }}>
+        <div className="glow" />
+        <img src={ArchLinux} alt="" className="arch" />
+      </Tilt>
 
     </Row>
     <Row className="d-flex-row justify-content-around text-center">
