@@ -7,7 +7,7 @@ function makeAlphabet() {
 
   for (let i = 65; i < 91; i += 1) {
     rows.push(
-      <Link key={i} href="/">{String.fromCharCode(i)}</Link>,
+      <Link key={i} to="/">{String.fromCharCode(i)}</Link>,
     );
   }
   return rows;

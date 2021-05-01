@@ -16,7 +16,7 @@ const AlphabetCard = ({ alphabet, distros }) => (
 
           </u>
         </Card.Title>
-        {distros.map((distro) => <div><Link className="distro-names" href={`/distro/${distro}`}>{distro}</Link></div>)}
+        {distros.map((distro) => <div><Link className="distro-names" to={`/distro/${distro}`}>{distro}</Link></div>)}
       </Card.Body>
     </Card>
   </Col>
