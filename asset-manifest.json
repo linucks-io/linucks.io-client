@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/linucks.io-client/static/css/main.040214e0.chunk.css",
-    "main.js": "/linucks.io-client/static/js/main.f38b357e.chunk.js",
+    "main.js": "/linucks.io-client/static/js/main.cbbe113e.chunk.js",
     "runtime-main.js": "/linucks.io-client/static/js/runtime-main.8a5d678d.js",
     "static/css/2.0371faf3.chunk.css": "/linucks.io-client/static/css/2.0371faf3.chunk.css",
     "static/js/2.57377fde.chunk.js": "/linucks.io-client/static/js/2.57377fde.chunk.js",
@@ -17,6 +17,6 @@
     "static/css/2.0371faf3.chunk.css",
     "static/js/2.57377fde.chunk.js",
     "static/css/main.040214e0.chunk.css",
-    "static/js/main.f38b357e.chunk.js"
+    "static/js/main.cbbe113e.chunk.js"
   ]
 }
