@@ -1,6 +1,6 @@
 [![Issues][issues-shield]][issues-url]
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- PROJECT LOGO -->
@@ -154,6 +154,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/ashikka"><img src="https://avatars.githubusercontent.com/u/58368421?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ashikka Gupta</b></sub></a><br /><a href="https://github.com/linucks-io/linucks.io-client/commits?author=ashikka" title="Code">💻</a> <a href="https://github.com/linucks-io/linucks.io-client/commits?author=ashikka" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/ffardeen"><img src="https://avatars.githubusercontent.com/u/50586667?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Fardeen Khan</b></sub></a><br /><a href="https://github.com/linucks-io/linucks.io-client/commits?author=ffardeen" title="Code">💻</a> <a href="https://github.com/linucks-io/linucks.io-client/commits?author=ffardeen" title="Documentation">📖</a></td>
   </tr>
 </table>
 
