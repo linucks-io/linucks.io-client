@@ -51,9 +51,12 @@ const LandingPage = () => (
       </div>
     </Row>
     <Row className="d-flex parent justify-content-center mt-5">
-      <Tilt className="Tilt" options={{ max: 25, easing: 'cubic-bezier(.03,.98,.52,.99)' }}>
-        <div className="glow" />
-        <img src={ArchLinux} alt="" className="arch" />
+      <Tilt className="Tilt" options={{ max: 25, easing: 'cubic-bezier(.17,.67,.74,.76)' }}>
+        <div className="parent-div h-100 w-100">
+          <div className="glow" />
+          <img src={ArchLinux} alt="" className="arch" />
+        </div>
+
       </Tilt>
 
     </Row>
