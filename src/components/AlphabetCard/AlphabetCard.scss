@@ -1,0 +1,33 @@
+.alphabet-card{
+    width: 20vw;
+    height: 30vh;
+    margin-bottom: 2rem;
+}
+.card-title{
+  color: black;
+}
+
+.distro-names{
+  color:black;
+}
+
+.alphabet-card-body{
+    overflow-y: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #97015B; 
+    border-radius: 10px;
+  }
+  

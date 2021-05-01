@@ -1,0 +1,57 @@
+@import '../../variables';
+
+.btn{
+    background-color: $button-purple;
+    border-color: $button-purple;
+    margin-top: 0.8rem;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #730FC3;
+}
+
+.logo{ 
+    height: 2rem;
+    margin-top: 0.8rem;
+  }
+
+.carousel{
+    height: 15vh;
+}
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    backdrop-filter: blur(20px);
+    border-bottom: #ffffff;
+    border-width: 2px;
+}
+
+.navbar.colorChange{
+    background-color: #000;
+}
+
+.hero{
+    background-image: url(../../assets/bg.png);
+}
+
+.header {
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.subheader {
+    color: #fafafacc;
+    font-size: 20px;
+}
+
+.paragraph {
+    color:#fafafab0;
+    font-size: 16px;
+}
+
+.reset{
+    color: white;
+}

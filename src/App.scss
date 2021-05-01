@@ -1,4 +1,16 @@
-#root {
+@import './variables';
+
+body,html{
+  margin: 0;
   width: 100vw;
   height: 100vh;
+  font-family: $font;
+  overflow-x: hidden;
+  background-image: url(assets/bg2.jpg);
+  color: #fafafa;
+  text-align: center;
+}
+
+.text-white{
+  color: white;
 }
