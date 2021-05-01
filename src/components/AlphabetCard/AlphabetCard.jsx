@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './AlphabetCard.scss';
 
 const AlphabetCard = ({ alphabet, distros }) => (
@@ -15,7 +16,7 @@ const AlphabetCard = ({ alphabet, distros }) => (
 
           </u>
         </Card.Title>
-        {distros.map((distro) => <div><a className="distro-names" href={`/distro/${distro}`}>{distro}</a></div>)}
+        {distros.map((distro) => <div><Link className="distro-names" href={`/distro/${distro}`}>{distro}</Link></div>)}
       </Card.Body>
     </Card>
   </Col>
