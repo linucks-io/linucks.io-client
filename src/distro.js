@@ -1,4 +1,5 @@
 const distros = [
+  'Arch I3',
   'AbsoluteLinux',
   'AcademiX',
   'AirSlax',
@@ -300,7 +301,7 @@ const distros = [
   'Tux N Vape',
   'tuxtrans',
   'Twister OS',
-  'Ubuntu',
+  'Ubuntu XFCE',
   'Ubuntu Budgie',
   'Ubuntu CE',
   'Ubuntu Cinnamon',

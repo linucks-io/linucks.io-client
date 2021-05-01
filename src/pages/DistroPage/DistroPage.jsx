@@ -16,7 +16,7 @@ const DistroPage = () => {
       const response = await fetch(`${REACT_APP_BACKEND_URL}/provision`, {
         method: 'POST',
         body: JSON.stringify({
-          distroName,
+          distroName: distroName.toLowerCase().replace(/\s/ig, '-'),
         }),
         headers: {
           Accept: 'application/json',

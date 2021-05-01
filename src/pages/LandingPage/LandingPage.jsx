@@ -55,10 +55,10 @@ const LandingPage = () => (
           </div>
         </div>
       </Row>
-      <Row className="carousel">
-        <div className="glow">
-          <img src={ArchLinux} alt="" className="arch" />
-        </div>
+      <Row className="d-flex parent justify-content-center mt-5">
+        <div className="glow" />
+        <img src={ArchLinux} alt="" className="arch" />
+
       </Row>
       <Row className="d-flex-row justify-content-around text-center">
         <div>
@@ -99,7 +99,7 @@ const LandingPage = () => (
         <SearchBox />
       </Row>
       <div className="d-flex mt-5 justify-content-center">
-        <Row className="w-75">
+        <Row className="w-100">
           {Object.keys(distroMap).map(createAlphabetCard)}
         </Row>
       </div>
