@@ -139,7 +139,7 @@ const distros = [
   'Hyperbola',
   'instantOS',
   'io GNU Linux',
-  'Kali XFCE',
+  'Kali GNOME',
   'Kanotix',
   'KaOS',
   'KDE neon',
