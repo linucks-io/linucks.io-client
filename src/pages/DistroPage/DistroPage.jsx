@@ -33,10 +33,10 @@ const DistroPage = () => {
       if (success) {
         if (url.includes('viewOnly=true')) {
           const newUrl = url.split('?')[0];
-          setUrl(`ws://${newUrl}`);
+          setUrl(`wss://${newUrl}`);
           return;
         }
-        setUrl(`ws://${url}/websockify`);
+        setUrl(`wss://${url}/websockify`);
       }
     } catch {
       console.log(REACT_APP_FALLBACK_URL);
