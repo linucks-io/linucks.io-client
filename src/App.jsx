@@ -1,18 +1,22 @@
 import React from 'react';
-import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
+import {
+  Switch, Route, BrowserRouter as Router,
+} from 'react-router-dom';
 import './App.scss';
 import { Container, Button } from 'react-bootstrap';
 import LandingPage from './pages/LandingPage/LandingPage';
 import DistroPage from './pages/DistroPage/DistroPage';
 
-import Logo from './assets/logo.png';
+import Logo from './assets/logo3.png';
 
 function App() {
   return (
     <>
       <div className="d-flex-row justify-content-around p-4 m-0 navbar">
         <img src={Logo} alt="logo" className="logo" />
-        <Button>Test me</Button>
+        <a href="#distros">
+          <Button>Test me</Button>
+        </a>
       </div>
       <Router basename={process.env.PUBLIC_URL}>
         <Container fluid className="App">
