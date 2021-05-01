@@ -1,7 +1,6 @@
 import React from 'react';
 import './LandingPage.scss';
-import { Button, Row, Col } from 'react-bootstrap';
-import Logo from '../../assets/logo3.png';
+import { Row, Col } from 'react-bootstrap';
 import Tick from '../../assets/icons/tick.svg';
 import Alphabets from '../../components/Alphabets/Alphabets';
 import SearchBox from '../../components/SearchBox/SearchBox';
@@ -18,10 +17,6 @@ function createAlphabetCard(alphabet) {
 
 const LandingPage = () => (
   <>
-    <Row className="d-flex-row justify-content-around p-4 navbar">
-      <img src={Logo} alt="logo" className="logo" />
-      <Button>Test me</Button>
-    </Row>
     <Spacer />
     <Row className="d-flex-row justify-content-around">
       <div>
