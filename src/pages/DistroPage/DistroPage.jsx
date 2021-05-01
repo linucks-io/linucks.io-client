@@ -8,7 +8,7 @@ const { REACT_APP_BACKEND_URL, REACT_APP_FALLBACK_URL } = process.env;
 
 const DistroPage = () => {
   const { distroName } = useParams();
-  const [URL, setUrl] = useState(REACT_APP_FALLBACK_URL);
+  const [URL, setUrl] = useState('');
 
   const getURL = async () => {
     try {
@@ -31,10 +31,11 @@ const DistroPage = () => {
           setUrl(`ws://${newUrl}`);
           return;
         }
-        setUrl(`ws://${url}`);
+        setUrl(`ws://${url}/websockify`);
       }
     } catch {
-      setUrl(REACT_APP_FALLBACK_URL);
+      console.log(REACT_APP_FALLBACK_URL);
+      // setUrl(REACT_APP_FALLBACK_URL);
     }
   };
   useEffect(() => {
@@ -79,6 +80,7 @@ const DistroPage = () => {
           </li>
         </Col>
         <Col>
+          {URL && (
           <VncScreen
             url={URL}
             scaleViewport
@@ -88,6 +90,8 @@ const DistroPage = () => {
               height: '75vh',
             }}
           />
+          ) }
+
         </Col>
 
       </Row>
