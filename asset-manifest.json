@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/linucks.io-client/static/css/main.040214e0.chunk.css",
-    "main.js": "/linucks.io-client/static/js/main.9e181ebb.chunk.js",
+    "main.js": "/linucks.io-client/static/js/main.c391e1ae.chunk.js",
     "runtime-main.js": "/linucks.io-client/static/js/runtime-main.8a5d678d.js",
     "static/css/2.0371faf3.chunk.css": "/linucks.io-client/static/css/2.0371faf3.chunk.css",
-    "static/js/2.57377fde.chunk.js": "/linucks.io-client/static/js/2.57377fde.chunk.js",
+    "static/js/2.95e51496.chunk.js": "/linucks.io-client/static/js/2.95e51496.chunk.js",
     "index.html": "/linucks.io-client/index.html",
-    "static/js/2.57377fde.chunk.js.LICENSE.txt": "/linucks.io-client/static/js/2.57377fde.chunk.js.LICENSE.txt",
+    "static/js/2.95e51496.chunk.js.LICENSE.txt": "/linucks.io-client/static/js/2.95e51496.chunk.js.LICENSE.txt",
     "static/media/LandingPage.scss": "/linucks.io-client/static/media/bg.a1e9d8d2.png",
     "static/media/App.scss": "/linucks.io-client/static/media/bg2.8513e602.jpg",
     "static/media/logo3.697a95ee.png": "/linucks.io-client/static/media/logo3.697a95ee.png",
@@ -15,8 +15,8 @@
   "entrypoints": [
     "static/js/runtime-main.8a5d678d.js",
     "static/css/2.0371faf3.chunk.css",
-    "static/js/2.57377fde.chunk.js",
+    "static/js/2.95e51496.chunk.js",
     "static/css/main.040214e0.chunk.css",
-    "static/js/main.9e181ebb.chunk.js"
+    "static/js/main.c391e1ae.chunk.js"
   ]
 }
