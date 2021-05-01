@@ -4,9 +4,10 @@ import { Row, Col } from 'react-bootstrap';
 import Tick from '../../assets/icons/tick.svg';
 import Alphabets from '../../components/Alphabets/Alphabets';
 import SearchBox from '../../components/SearchBox/SearchBox';
-import Spacer from '../../components/Spacer/Spacer';
+// import Spacer from '../../components/Spacer/Spacer';
 import AlphabetCard from '../../components/AlphabetCard/AlphabetCard';
 import distroMap from '../../distro';
+import ArchLinux from '../../assets/arch.png';
 
 function createAlphabetCard(alphabet) {
   if (distroMap[alphabet].length === 0) {
@@ -17,36 +18,42 @@ function createAlphabetCard(alphabet) {
 
 const LandingPage = () => (
   <>
-    <Spacer />
     <Row className="d-flex-row justify-content-around">
       <div>
         <div>
-          <h1 className="header">
-            Run and test Linux
-            <br />
-            in your browser
-          </h1>
-        </div>
-        <br />
-        <div className="text-center">
-          <h5 className="subheader">
-            No installations, no long waiting times, its an
-            <br />
-            operating system in your browser
-          </h5>
+          <div>
+            <div className="w-50" />
+            <h1 className="header">
+              Run and test Linux
+              <br />
+              in your browser
+            </h1>
+          </div>
           <br />
-          <p className="paragraph">
-            With
-            {' '}
-            {' '}
-            <b>linucks.io</b>
-            {' '}
-            you can yuck out all the bad distros
-          </p>
+          <div className="text-center">
+            <h5 className="subheader">
+              No installations, no long waiting times, its an
+              <br />
+              operating system in your browser
+            </h5>
+            <br />
+            <p className="paragraph">
+              With
+              {' '}
+              {' '}
+              <b>linucks.io</b>
+              {' '}
+              you can yuck out all the bad distros
+            </p>
+          </div>
         </div>
       </div>
     </Row>
-    <Row className="carousel" />
+    <Row className="d-flex parent justify-content-center mt-5">
+      <div className="glow" />
+      <img src={ArchLinux} alt="" className="arch" />
+
+    </Row>
     <Row className="d-flex-row justify-content-around text-center">
       <div>
         <h1>Choose from a variety of distros</h1>
@@ -85,7 +92,7 @@ const LandingPage = () => (
       </div>
       <SearchBox />
     </Row>
-    <div id="distros" className="d-flex mt-5 justify-content-center">
+    <div className="d-flex mt-5 justify-content-center">
       <Row className="w-75">
         {Object.keys(distroMap).map(createAlphabetCard)}
       </Row>

@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 /* eslint-disable no-console */
 import React, { useEffect, useState } from 'react';
 import { Row, Col } from 'react-bootstrap';
@@ -16,7 +17,7 @@ const DistroPage = () => {
       const response = await fetch(`${REACT_APP_BACKEND_URL}/provision`, {
         method: 'POST',
         body: JSON.stringify({
-          distroName,
+          distroName: distroName.toLowerCase().replace(/\s/ig, '-'),
         }),
         headers: {
           Accept: 'application/json',
@@ -24,8 +25,11 @@ const DistroPage = () => {
         },
       });
 
-      const { url, success } = (await response.json());
-
+      const { url, success, message } = (await response.json());
+      if (!success) {
+        alert(message);
+        return;
+      }
       if (success) {
         if (url.includes('viewOnly=true')) {
           const newUrl = url.split('?')[0];

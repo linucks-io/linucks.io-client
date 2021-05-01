@@ -1,14 +1,15 @@
 @import '../../variables';
 
 .btn{
-    background-color: $button-purple;
-    border-color: $button-purple;
+    background:linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
     margin-top: 0.8rem;
     font-weight: bold;
+    border: none;
 }
 
 .btn:hover{
-    background-color: #730FC3;
+    background:linear-gradient(180deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+    transition: background 2s;
 }
 
 .logo{ 
@@ -16,8 +17,28 @@
     margin-top: 0.8rem;
   }
 
-.carousel{
-    height: 15vh;
+.arch {
+    top: 42.5%;
+    transform: translateY(-50%);
+    width: 35vw;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.9;
+}
+
+.parent{
+    position: relative;
+    height: 50vh;
+}
+
+.glow {
+    position: relative;
+    z-index: 1;
+    width: 37vw;
+    height: 42vh;
+    background: conic-gradient(from 217.29deg at 51.63% 52.16%, rgb(36, 0, 255) 0deg, rgb(0, 135, 255) 19.5deg, rgb(255, 29, 122) 102.75deg, rgb(245, 56, 27) 152.25deg, rgb(255, 83, 53) 208.88deg, rgb(105, 30, 255) 291deg);
+    filter: blur(16px);
+    opacity: 0.75;
 }
 
 .navbar{
@@ -55,4 +76,29 @@
 
 .reset{
     color: white;
+}
+
+@keyframes pulse {
+    0% {
+        transform: rotate(0deg);
+        filter: blur(8px);
+        border-radius: 5px;
+    }
+    33% {
+        transform: rotate(-0.5deg) 
+        translate(1px, -1px) scale(1.01);
+        filter: blur(10px);
+        border-radius: 3px;
+    }
+    67% {
+        transform: rotate(1deg) 
+        translate(-1px, -1px) scale(0.99);
+        filter: blur(14px);
+        border-radius: 7px;
+    }
+    100% {
+        transform: rotate(0deg);
+        filter: blur(8px);
+        border-radius: 5px;
+    }
 }

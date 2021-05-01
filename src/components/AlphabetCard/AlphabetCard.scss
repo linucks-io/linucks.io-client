@@ -1,13 +1,19 @@
 .alphabet-card{
-    width: 20vw;
+    width: 100vw;
     height: 30vh;
     margin-bottom: 2rem;
-    background-color: #1B1C1D;
-    color: #F0F1F1;
+    background: linear-gradient(180deg,#28292c 0%,rgba(39,40,43,0.82) 100%);
+    box-shadow: 0px 13px 40px #00000030, 0px 4px 4px #00000020;
+    border-radius: 16px;
+}
+.card-title{
+  color: #97015B;
+  font-weight: bold;
+  text-align: left;
 }
 
 .distro-names{
-  color: #F0F1F1;
+  color:#d4d4d4;
 }
 
 .alphabet-card-body{
@@ -16,17 +22,17 @@
 
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 6px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
-    border-radius: 10px;
+    border-radius: 16px;
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #97015B; 
-    border-radius: 10px;
+    background: #414141; 
+    border-radius: 16px;
   }
   
