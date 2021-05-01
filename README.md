@@ -4,7 +4,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/linucks-io/linucks.io-client">
-    <img src="https://i.ibb.co/41wHGgQ/logo.png"  alt="Logo" width="175">
+    <img src="https://i.ibb.co/41wHGgQ/logo.png" alt="Logo" width="175">
   </a>
 
   <h1 align="center">linucks.io-client</h1>
@@ -12,7 +12,7 @@
   <p align="center">
     The frotend repo for linucks.io ✨:sparkles:
     <br />
-    <a href="https://github.com/linucks-io/linucks.io-client/><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/linucks-io/linucks.io-client/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://linucks-io.github.io/linucks.io-client/">View Demo</a>
