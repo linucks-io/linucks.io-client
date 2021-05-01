@@ -3,7 +3,7 @@ import {
   Switch, Route, BrowserRouter as Router,
 } from 'react-router-dom';
 import './App.scss';
-import { Container, Button } from 'react-bootstrap';
+import { Container, Button, Navbar } from 'react-bootstrap';
 import LandingPage from './pages/LandingPage/LandingPage';
 import DistroPage from './pages/DistroPage/DistroPage';
 
@@ -30,6 +30,7 @@ function App() {
           </Switch>
         </Container>
       </Router>
+      <Navbar className="bottom-bar" />
     </>
   );
 }

@@ -7,7 +7,7 @@ const SearchBox = () => (
   <Form>
     <Row className="d-flex">
       <Col sm={8}>
-        <Form.Control id="inlineFormInputName" placeholder="Distro name" />
+        <Form.Control id="inlineFormInputName" placeholder="Distro name" className="bg-dark color-white" />
       </Col>
       <Col>
         <Button className="mt-0">Search</Button>
