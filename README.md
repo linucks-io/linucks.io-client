@@ -17,7 +17,7 @@
     <a href="https://github.com/linucks-io/linucks.io-client/><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/linucks-io/linucks.io-client/">View Demo</a>
+    <a href="https://linucks-io.github.io/linucks.io-client/">View Demo</a>
     ·
     <a href="https://github.com/linucks-io/linucks.io-client/issues">Report Bug</a>
     ·
@@ -53,6 +53,8 @@
   </a>
 </p>
 
+Check out a live demo [here](https://linucks-io.github.io/linucks.io-client/).
+
 
 **linucks.io** is a web application where you can test out a range of Linux distros before actually installing in on your system.
 
@@ -60,7 +62,7 @@
 Linux is a popular kernel which is used mainly by developers because of the many benefits. Since there are a number of flavours of GNU/Linux, there
 are many options to choose from, which can be quite confusing for the user.
 
-**linucks.io** is a one-stop solution for distro-hopping. With this application, we try the user by simulating a virtual environment of the distro of the user's choice. This is the repository for the frontend of the web-application, you can check out the backend on [https://github.com/linucks-io/linucks.io-server/]. Every time a user clicks on a distro, a request is sent to the backend, which allocates a docker image for that cluster and returns a SSL encrypted websocket URL for it, which can be accessed using [noVNC](https://github.com/novnc/noVNC) on the browser.
+**linucks.io** is a one-stop solution for distro-hopping. With this application, we try the user by simulating a virtual environment of the distro of the user's choice. This is the repository for the frontend of the web-application, you can check out the backend on [https://github.com/linucks-io/linucks.io-server/](https://github.com/linucks-io/linucks.io-server/). Every time a user clicks on a distro, a request is sent to the backend, which allocates a docker image for that cluster and returns a SSL encrypted websocket URL for it, which can be accessed using [noVNC](https://github.com/novnc/noVNC) on the browser.
 
 
 ### Built With
