@@ -169,6 +169,7 @@ const distros = [
   'Mageia',
   'MakuluLinux',
   'Manjaro',
+  'Mast Linux',
   'Matriux',
   'MauiLinux',
   'MenuetOS',
