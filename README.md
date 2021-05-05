@@ -1,4 +1,7 @@
 [![Issues][issues-shield]][issues-url]
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- PROJECT LOGO -->
 <br />
@@ -60,7 +63,7 @@ Check out a live demo [here](https://linucks-io.github.io/linucks.io-client/).
 Linux is a popular kernel which is used mainly by developers because of the many benefits. Since there are a number of flavours of GNU/Linux, there
 are many options to choose from, which can be quite confusing for the user.
 
-**linucks.io** is a one-stop solution for distro-hopping. With this application, we try the user by simulating a virtual environment of the distro of the user's choice. This is the repository for the frontend of the web-application, you can check out the backend on [https://github.com/linucks-io/linucks.io-service/](https://github.com/linucks-io/linucks.io-service/). Every time a user clicks on a distro, a request is sent to the backend, which allocates a docker image for that cluster and returns a SSL encrypted websocket URL for it, which can be accessed using [noVNC](https://github.com/novnc/noVNC) on the browser.
+**linucks.io** is a one-stop   solution for distro-hopping. With this application, we try the user by simulating a virtual environment of the distro of the user's choice. This is the repository for the frontend of the web-application, you can check out the backend on [https://github.com/linucks-io/linucks.io-service/](https://github.com/linucks-io/linucks.io-service/). Every time a user clicks on a distro, a request is sent to the backend, which allocates a docker image for that cluster and returns a SSL encrypted websocket URL for it, which can be accessed using [noVNC](https://github.com/novnc/noVNC) on the browser.
 
 
 ### Built With
@@ -140,3 +143,24 @@ Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more informati
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [issues-shield]: https://img.shields.io/github/issues/linucks-io/linucks.io-client.svg?style=flat-square
 [issues-url]: https://github.com/linucks-io/linucks.io-client/issues
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ashikka"><img src="https://avatars.githubusercontent.com/u/58368421?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ashikka Gupta</b></sub></a><br /><a href="https://github.com/linucks-io/linucks.io-client/commits?author=ashikka" title="Code">💻</a> <a href="https://github.com/linucks-io/linucks.io-client/commits?author=ashikka" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/ffardeen"><img src="https://avatars.githubusercontent.com/u/50586667?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Fardeen Khan</b></sub></a><br /><a href="https://github.com/linucks-io/linucks.io-client/commits?author=ffardeen" title="Code">💻</a> <a href="https://github.com/linucks-io/linucks.io-client/commits?author=ffardeen" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

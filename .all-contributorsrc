@@ -1,0 +1,35 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "ashikka",
+      "name": "Ashikka Gupta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58368421?v=4",
+      "profile": "https://github.com/ashikka",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "ffardeen",
+      "name": "Fardeen Khan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50586667?v=4",
+      "profile": "https://github.com/ffardeen",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "linucks.io-client",
+  "projectOwner": "linucks-io",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
