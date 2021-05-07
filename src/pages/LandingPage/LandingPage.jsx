@@ -67,24 +67,24 @@ const LandingPage = () => (
       </div>
     </Row>
     <div className="d-flex w-100 justify-content-around">
-      <Row className="d-flex-row text-center pt-5 w-50">
+      <Row className="d-flex-row text-center pt-5 features">
         <Col>
-          <div>
-            <img src={Tick} alt="tick" className="m-2" />
+          <div className="mt-3">
+            <img src={Tick} alt="tick" className="mr-2 tick" />
             <span>No restrictions for the OS</span>
           </div>
-          <div>
-            <img src={Tick} alt="tick" className="m-2" />
+          <div className="mt-3">
+            <img src={Tick} alt="tick" className="mr-2 tick" />
             <span>Test newly installed programs</span>
           </div>
         </Col>
         <Col>
-          <div>
-            <img src={Tick} alt="tick" className="m-2" />
+          <div className="mt-3">
+            <img src={Tick} alt="tick" className="mr-2 tick" />
             <span>Use all functions of the system</span>
           </div>
-          <div>
-            <img src={Tick} alt="tick" className="m-2" />
+          <div className="mt-3">
+            <img src={Tick} alt="tick" className="mr-2 tick" />
             <span>Delete and formal the file system</span>
           </div>
         </Col>

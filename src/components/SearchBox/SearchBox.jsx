@@ -6,8 +6,8 @@ import './SearchBox.scss';
 
 const SearchBox = () => (
   <Form className="form">
-    <Row className="d-flex">
-      <Col className="justify-content-center">
+    <Row className="d-flex justify-content-center">
+      <Col>
         <Form.Control placeholder="Distro name" className="bg-dark color-white" />
       </Col>
       <Col>
