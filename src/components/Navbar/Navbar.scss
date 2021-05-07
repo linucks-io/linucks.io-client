@@ -5,3 +5,10 @@
     bottom: 0 !important;
     position: relative;
   }
+
+
+  @media only screen and (max-width: 500px) {
+    .logo {
+       height: 1rem;
+    }
+}

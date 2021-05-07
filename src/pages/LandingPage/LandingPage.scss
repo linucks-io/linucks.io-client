@@ -22,6 +22,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     width: 35vw;
+    height: 42vh;
     position: absolute;
     z-index: 2;
     opacity: 0.9;
@@ -30,6 +31,7 @@
 .parent{
     position: relative;
     height: 50vh;
+    margin-top: 5rem;
 }
 
 .glow {
@@ -109,5 +111,40 @@
         transform: rotate(0deg);
         filter: blur(8px);
         border-radius: 5px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .header {
+        font-size: 32px;
+    }
+
+    .subheader{
+        font-size: 15px;
+    }
+
+    .paragraph{
+        font-size: 12px;
+    }
+    
+    .header-1{
+        font-size: 27px;
+    }
+    span{
+        font-size: small;
+    }
+
+    .glow{
+        width: 55vw;
+        height: 25vh;
+    }
+    .arch{
+        width: 50vw;
+        height: 20vh;
+    }
+
+    .parent{
+        height: 30vh;
+        margin-top: 2rem;
     }
 }

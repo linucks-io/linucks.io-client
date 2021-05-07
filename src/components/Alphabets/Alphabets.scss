@@ -2,3 +2,9 @@
     margin-right: 5px;
     color: white;
 }
+
+@media only screen and (max-width: 500px) {
+    .alphabets > *{
+        font-size: small;
+    }
+}

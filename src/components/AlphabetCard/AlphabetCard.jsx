@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import './AlphabetCard.scss';
 
 const AlphabetCard = ({ alphabet, distros }) => (
-  <Col md={4} className="d-flex justify-content-center align-items-center">
+  <Col lg={4} md={6} s={12} className="d-flex justify-content-center align-items-center">
     <Card
       className="card text-center alphabet-card"
     >

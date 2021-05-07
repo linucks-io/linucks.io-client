@@ -50,7 +50,7 @@ const LandingPage = () => (
         </div>
       </div>
     </Row>
-    <Row className="d-flex parent justify-content-center mt-5">
+    <Row className="d-flex parent justify-content-center">
       <Tilt className="Tilt" options={{ max: 25, easing: 'cubic-bezier(.17,.67,.74,.76)' }}>
         <div className="parent-div h-100 w-100">
           <div className="glow" />
@@ -62,8 +62,8 @@ const LandingPage = () => (
     </Row>
     <Row className="d-flex-row justify-content-around text-center">
       <div>
-        <h1>Choose from a variety of distros</h1>
-        <h1>and test it directly</h1>
+        <h1 className="header-1">Choose from a variety of distros</h1>
+        <h1 className="header-1">and test it directly</h1>
       </div>
     </Row>
     <div className="d-flex w-100 justify-content-around">
@@ -90,7 +90,7 @@ const LandingPage = () => (
         </Col>
       </Row>
     </div>
-    <Row className="d-flex-row justify-content-around mt-5 w-100">
+    <Row className="d-flex-row justify-content-around mt-5 mr-0 ml-0 w-100">
       <div>
         <Alphabets />
         <br />
